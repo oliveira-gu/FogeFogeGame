@@ -19,5 +19,10 @@ void alocamapa(MAPA* m);
 void imprimemapa(MAPA* m);
 void encontramapa(MAPA* m, POSICAO* p, char c);
 
+int valida(MAPA* m, int x, int y);
+int vazia(MAPA* m, int x, int y);
+void andanomapa(MAPA* m, int xorigem, int yorigem,
+    int xdestino, int ydestino);
+
 
 
